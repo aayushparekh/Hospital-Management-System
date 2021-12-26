@@ -1,0 +1,79 @@
+Enter name of Ward :VIP
+Enter label for first bed :201
+Enter label for last bed :205
+Select a method to perform :
+1: quit
+2: add a new patient to system
+3: add a new doctor to system
+4: assign a doctor to a patient
+5: display the empty beds of the ward
+6: assign a patient a bed
+7: release a patient
+8: drop doctor patient association
+9: display current system state
+Enter number to select a method to perform: 
+2
+Enter name of patient :anam
+Enter health card number for patient :112er
+[{
+Name: anam
+Health card number: 112er
+doctor name:
+bedlabel:}]
+Enter number to select a method to perform: 
+6
+Enter health number of patient to whom bed should be assigned :112er
+Enter bed label to be assigned for patient :203
+
+//Name : Aayush Parekh
+//NSID : aap409
+//Student Number : 11289666
+//Course Number : CMPT 270
+
+
+
+
+
+
+Ward VIP with capacity 5 has the following patients: 
+bed 201: 
+bed 202: 
+bed 203: anam
+bed 204: 
+bed 205: 
+
+Enter number to select a method to perform: 
+5
+[201, 202, 204, 205]
+Enter number to select a method to perform: 
+7
+Enter health card number of patient : 
+112er
+
+Ward VIP with capacity 5 has the following patients: 
+bed 201: 
+bed 202: 
+bed 203: 
+bed 204: 
+bed 205: 
+
+Enter number to select a method to perform: 
+1
+quit
+System state :
+
+Ward VIP with capacity 5 has the following patients: 
+bed 201: 
+bed 202: 
+bed 203: 
+bed 204: 
+bed 205: 
+{112er={
+Name: anam
+Health card number: 112er
+doctor name:
+bedlabel:203}}
+{}
+
+
+Process finished with exit code 0
